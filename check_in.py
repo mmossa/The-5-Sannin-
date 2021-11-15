@@ -1,6 +1,7 @@
 from random import randint
 
 class Battleship:
+  ### Lauren
   """This class sets the location of a ship that is two spaces in lenght
   Attributes:
     location(list): The location of the two unit ship
