@@ -71,9 +71,17 @@ print(a)
 
 Class Bullets(Sprite):  
   """ A class to manage bullets fired from the plane/ship"""
+  import pygame
+  from pygame.sprite import Sprite 
  
   def __innit__(self, ab)
-      """Create a bullet object at the plane's current location"""
+   """Create a bullet object at the plane's current location
+   
+     Attribute:
+        ab: this comes from the main file, ab is an instance of the game and runs the game 
+          """
+    
+   
     super().__init__()
     self.screen = ab_game.screen
     self.settings = ab_game.settings
