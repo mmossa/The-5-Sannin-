@@ -1,5 +1,29 @@
 from random import randint
 
+def playing_board(board):
+  ### Sajjad
+    """
+    This Function represents the gaming board that we will be running the game on.
+    Args:
+        board(list): This is an empty list 
+    """
+    print('   0 1 2 3 4 5')
+    print('  |-----------|')
+
+    for row in range(5):
+        board.append(['-'] * 5)
+
+    letter = 0
+
+    for row in range(5):
+        print(chr(letter + 65), end = ' | ')
+        for column in range(len(board[letter])):
+            print(board[letter][column], end=' ')
+        print('| ')
+        letter += 1
+    print('  |-----------|')
+
+    print(board)
 class Battleship:
   ### Lauren
   """This class sets the location of a ship that is two spaces in lenght
