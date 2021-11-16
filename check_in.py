@@ -88,6 +88,32 @@ a = Battleship()
 a.set_location() 
 print(a) 
 
+class Image:
+#Mossa 
+    def __init__(self, plane, ab_game):
+
+        """ intializes the plane and sets its positions
+        Args: 
+            plane: this object has the planes locations
+            ab_game: overall class manages behavior of game and different settings
+        """
+        self.screen = ab_game.screen
+        self.screen_rect = ab_game.screen.get.screen_rect()
+
+        """ loads image """
+
+        self.front = pygame.image.load("plane_front.png")
+        self.back = pygame.image.load("plane_back.png")
+        
+        """ get the images on the 2d board to have the front and back of the plane """
+        """ bliting the image may not work correctly, since Plane location is stored as a number and letter, but blit
+            requires two numbers for position
+        """
+        self.screen_rect.blit(self.front, (plane.location[0][0], plane.location[0][1]))
+        self.screen_rect.blit(self.back, (plane.location[1][0], plane.location[1][1]))
+        
+
+
 ### Bullets.py 
 ### Arfa and Resha 
 ### This will be a separate .py file that will fire bullets. Ideally, we want the bullets to be fired when player presses the spacebar and travel up the screen
