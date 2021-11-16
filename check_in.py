@@ -66,4 +66,27 @@ print(a)
 
 ### Bullets.py 
 ### Arfa and Resha 
+### This will be a separate .py file that will fire bullets. Ideally, we want the bullets to be fired when player presses the spacebar and travel up the screen
+### until they disappear off the screeen. We are going to use pygame module that has objects which we will use to emulate tbe bullets. Module is called "Sprite"
+
+Class Bullets(Sprite):  
+  """ A class to manage bullets fired from the plane/ship"""
+ 
+  def __innit__(self, ab)
+      """Create a bullet object at the plane's current location"""
+    super().__init__()
+    self.screen = ab_game.screen
+    self.settings = ab_game.settings
+    self.color = self.settings.bullet_color
+    
+    ### create a bullet rectange area at a coordinate (0,0) and then sets accruate position 
+    
+    self.rect = pygame.Rect(0,0, self.settings.bullet_width, self.settings.bullet_height)
+    self.rect.midtop = ab_game.plane.rect.midtop
+    
+    ### store the bullet's position as a decimal value 
+    self.y = float(self.rect.y)
+    
+  ### Resha's code
+  
 
