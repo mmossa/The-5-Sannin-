@@ -97,17 +97,17 @@ Class Bullets(Sprite):
     
   ### Resha's code
   
-def update(self):
+ def update(self):
   """Moves bullets up the screen"""
-   ###Updates position (decimal value) of the bullet
-    
+  
+   ###Updates position (decimal value) of the bullet  
    self.y -= self.settings.bullet_speed ###when a bullet is fired, it moves up the screen and decreases the y value. In order to update the postion,
    ###we subtract the amount stored in settings.bullet_speed from self.y
     
    ### update rect position
    self.rect.y = self.y
         
-def draw_bullets(self):
+ def draw_bullets(self):
    """Draws the bullets to the screen"""
    pygame.draw.rect(self.screen, self.color, self.rect)
 
