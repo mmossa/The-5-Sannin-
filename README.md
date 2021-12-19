@@ -34,6 +34,10 @@ Project Files
 
 # Bibliography  
 
+Matthes, Eric. “Pcc_2e/alien_invasion.Py at Master · Ehmatthes/pcc_2e.” GitHub, 1 May 2019, https://github.com/ehmatthes/pcc_2e/blob/master/chapter_13/ending_the_game/alien_invasion.py. 
+
+Although we didn't use the code specifically from here, the way we wanted to implement aspects of pygame we saw that this person also uses/writes it in the same syntax/style so we wanted to cite this source because of similiaries we found and if they came up with how to use pygame, we wanted to give them credit for it. Mostly, we saw similiarites in how to set the screen and other object settings in the Main.py file. 
+
 Conrad, P. “Pygame Drawing Basics.” Pygame Drawing Basics, UC Santa Barbara, 2007, https://sites.cs.ucsb.edu/~pconrad/cs5nm/topics/pygame/drawing/. 
 
   Aside from pygame documentation, this website came up when we were trying to write the code for how to exit/quit out of the game window in the Main.py file.  
