@@ -14,7 +14,7 @@ class Main:
 				difficululty (int) sets the level of difficulty for this game via an int value and based on that
 				increases the speed of the target making it difficult to hit.
        			"""
-
+#Arfa
 	def __init__(self, difficulty):	
 		"""This method creates an instane of the game and intializing the difficulty setting of the game. 
     		The code that initializes the pygame library with the settings attribute comes from searching how to use 
@@ -165,7 +165,7 @@ def parse_args(arglist):
 	parser = ArgumentParser()
 	parser.add_argument("game_difficulty", help="Enter game difficulty (1, 2, 3, 4, 5)")
 	return parser.parse_args(arglist)
-  
+#Arfa 
 def main(difficulty = 1):
 	"""Creates an instance of the Main class
 
