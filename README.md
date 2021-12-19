@@ -12,27 +12,27 @@ In order for users to run this game, they would need to have the pygame library 
 
 Project Files 
 
-Main.py
+# Main.py
 
-# add descirtion 
+ add descirtion 
 
-Cannonball.py
+# Cannonball.py
 
-# add description
+ add description
 
-Ship.py
+# Ship.py
 
-# add description 
+ add description 
 
-Target.py
+# Target.py
 
-# add description 
+ add description 
 
-Settings.py
+# Settings.py
 
-# add description 
+ add description 
 
-Bibliography  
+# Bibliography  
 
 Conrad, P. “Pygame Drawing Basics.” Pygame Drawing Basics, UC Santa Barbara, 2007, https://sites.cs.ucsb.edu/~pconrad/cs5nm/topics/pygame/drawing/. 
 
