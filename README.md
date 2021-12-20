@@ -18,11 +18,11 @@ Project Files
 
 # Cannonball.py
 
- This class manages the cannonballs shot at the ship object. It allows us create a rect for the cannonball and then using the update function, the y position changes based off of the speed of the cannonball. Then, the cannonball rect is drawn onto the screen. 
+ add description
 
 # Ship.py
 
- add description 
+We've constructed a class in this Python file to manage the ship object. We started by initializing the object and setting it to its default location. We used a picture of a ship to create the item. We assign the screen to a ship property in the init function so that we can quickly access it. In addition, when the player pushes the right arrow key, the ship moves right, and when the player uses the left arrow key, the ship moves left. 
 
 # Target.py
 
