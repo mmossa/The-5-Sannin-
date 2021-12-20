@@ -26,7 +26,7 @@ We've constructed a class in this Python file to manage the ship object. We star
 
 # Target.py
 
- add description 
+This class controls the opposing pirate ship, such as the settings for the ship like the speed, the direction of travel, the image, and the boundaries. We first initialize the ship’s image and position. Then, using the update function we move the position of the ship to make it more challenging for the user to shoot cannonballs. 
 
 # Settings.py
 
