@@ -18,7 +18,7 @@ Project Files
 
 # Cannonball.py
 
-We constructed a class called CannonBall that manages the cannnonballs that are shot at the ship object by the user. Then, we created a rect for the cannonball through the x and y coordinates and initizaled the rect at starting position (0,0). Using the update method, we change the cannonball rect y position based off of its speed. Lastly, the cannonball rect fills part of the screen defined by its color. 
+We constructed a class called CannonBall that manages the cannonballs that are shot at the ship object by the user. Then, we created a rect for the cannonball through the x and y coordinates and initizaled the rect at starting position (0,0). Using the update method, we change the cannonball rect y position based off of its speed. Lastly, the cannonball rect fills part of the screen defined by its color. 
 
 # Ship.py
 
