@@ -3,6 +3,10 @@ from random import randint
 from pygame.sprite import Sprite
 
 class Target():
+    """
+    This class controls the opposing pirate ship, such as the settings for the ship like the speed, 
+    the direction of travel, the image, and the boundaries.
+    """
     
     def __init__ (self, game):
         self.screen = game.screen
