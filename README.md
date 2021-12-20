@@ -49,3 +49,9 @@ Pygame Front Page¶.” Pygame Front Page - Pygame v2.1.1 Documentation, https:/
 “Pygame Tutorial =&gt; Event Loop.” Pygame Tutorial =&gt; Event Loop, Rip Tutorial , https://riptutorial.com/pygame/example/18046/event-loop. 
 
   This website was used for help with syntax of using pygame event functinality since we wanted to ship to move with pressing certain buttons. 
+  
+  
+Matthes, Eric. “Pcc_2e/alien_invasion.Py at Master · Ehmatthes/pcc_2e.” GitHub, 1 May 2019
+https://github.com/ehmatthes/pcc_2e/blob/master/chapter_13/ending_the_game/settings.py 
+
+Even though we did not use the code we saw that this person also uses it in the same syntax/style as we wanted to implement aspects of our settings file, so we wanted to cite this source because of the similarities we discovered. 
