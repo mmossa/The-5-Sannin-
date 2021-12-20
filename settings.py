@@ -1,5 +1,5 @@
 class Settings:
-    
+    #Sajjad
     """
     This class allows us to store all of 
     the game settings that we have set for our ship game. 
