@@ -30,7 +30,7 @@ Project Files
 
 # Settings.py
 
- add description 
+This class was created to give restraints and to allow us to give our pirate ship settings that could be adjusted. Giving speed settings, cannonball settings, target settings, and pygame settings. All of these values may be changed. 
 
 # Bibliography  
 
