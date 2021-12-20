@@ -18,7 +18,7 @@ Project Files
 
 # Cannonball.py
 
- add description
+ This class manages the cannonballs shot at the ship object. It allows us create a rect for the cannonball and then using the update function, the y position changes based off of the speed of the cannonball. Then, the cannonball rect is drawn onto the screen. 
 
 # Ship.py
 
