@@ -7,10 +7,12 @@ class CannonBall(Sprite):
     """Manages the cannonballs shot at the ship object.
     
     Attributes: 
-		game: the settings for the game
+		game: the current instance for the game.
     """
-    
     def __init__(self, game):
+    	""" 
+        We use the super() function to make inheritance more manageable from Sprite.
+        """
 		super().__init__()
 		self.screen = game.screen
 		self.settings = game.settings
