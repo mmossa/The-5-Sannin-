@@ -22,10 +22,10 @@ class CannonBall(Sprite):
 		self.rect = pygame.Rect(0,0, self.settings.cannonball_width, self.settings.cannonball_height)
 		self.rect.midtop = game.ship.rect.midtop
  	
-	def update(self):
+    def update(self):
 		# update cannonball rect y postion by cannonball speed
 		self.rect.y -= self.settings.cannonball_speed
 
-	def draw_cannonball(self):
+    def draw_cannonball(self):
 		# draw the cannonball rect onto the screen
-	    pygame.draw.rect(self.screen, self.color, self.rect)
+	   	pygame.draw.rect(self.screen, self.color, self.rect)
