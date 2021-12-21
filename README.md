@@ -8,13 +8,16 @@ The aim of the game is for one pirate ship to aim cannonballs at a target (anoth
 The user wins this game if he/she is able to hit the ship within the limitation placed (on the number of cannonballs the user has avaible to be able to hit the other ship) and being actually able to hit the target. At that point, the game ends.
 
 How does it work?
-In order for users to run this game, they would need to have the pygame library installed. Then, users can run the game from the Main.py file. 
+In order for users to run this game, they would need to have the pygame library installed. Then, users can run the game from the Main.py file. Additonally, users would need to download all files, including the .jpg image files for the game to work. The image files needs to be in the same directory as the rest of the project files.
 
 Project Files 
 
 # Main.py
 
  This is the file from which our program is run. It's purpose is to start the main loop of the game, and call our other classes that we have created (settings, cannonballs, ship, target). It also initializes the game board, updates the screen, cannonballs, and checks for when the user presses the up, down, left, or right arrow keys. Once the Main.py file is run, it will prompt the user to select a difficulty setting between 1 and 5. This adjusts the speed of the target/ship. If the user successfully hits the target within 5 shots, they win and the terminal will print a winning message. If the user misses all five shots, the terminal will print out a losing message. (Worked on by Arfa and Lauren)
+ 
+ Arfa: Worked on _init_, _run_, keydown_events, and keyup_events
+ Lauren: Worked on start_game, update_cannonballs, fire_cannonball, update_screen, parse_args, and main
 
 # Cannonball.py
 
@@ -26,7 +29,10 @@ We've constructed a class in this Python file to manage the ship object. We star
 
 # Target.py
 
-This class controls the opposing pirate ship, such as the settings for the ship like the speed, the direction of travel, the image, and the boundaries. We first initialize the ship’s image and position. Then, using the update function we move the position of the ship to make it more challenging for the user to shoot cannonballs. 
+This class controls the opposing pirate ship, such as the settings for the ship like the speed, the direction of travel, the image, and the boundaries. We first initialize the ship’s image and position. Then, using the update function we move the position of the ship to make it more challenging for the user to shoot cannonballs.
+
+Arfa: worked on update method
+
 
 # Settings.py
 
