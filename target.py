@@ -7,7 +7,7 @@ class Target():
     This class controls the opposing pirate ship, such as the settings for the ship like the speed, 
     the direction of travel, the image, and the boundaries.
     """
-    
+# Jay    
     def __init__ (self, game):
         self.screen = game.screen
         self.settings = game.settings
@@ -33,6 +33,7 @@ class Target():
             self.direction = 1
         elif self.rect.right >= self.screen_rect.right:
             self.direction = -1
-    
+# Resha    
     def blitme(self):
+    #the ship is drawn onto the screen and will appear on top of the background
         self.screen.blit(self.image, self.rect)
