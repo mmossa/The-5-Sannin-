@@ -14,7 +14,7 @@ Project Files
 
 # Main.py
 
- This is the file from which our program is run. It's purpose is to start the main loop of the game, and call our other classes that we have created (settings, cannonballs, ship, target). It also initializes the game board, updates the screen, cannonballs, and checks for when the user presses the up, down, left, or right arrow keys. Once the Main.py file is run, it will prompt the user to select a difficulty setting between 1 and 5. This adjusts the speed of the target/ship. If the user successfully hits the target within 5 shots, they win and the terminal will print a winning message. If the user misses all five shots, the terminal will print out a losing message. 
+ This is the file from which our program is run. It's purpose is to start the main loop of the game, and call our other classes that we have created (settings, cannonballs, ship, target). It also initializes the game board, updates the screen, cannonballs, and checks for when the user presses the up, down, left, or right arrow keys. Once the Main.py file is run, it will prompt the user to select a difficulty setting between 1 and 5. This adjusts the speed of the target/ship. If the user successfully hits the target within 5 shots, they win and the terminal will print a winning message. If the user misses all five shots, the terminal will print out a losing message. (Worked on by Arfa and Lauren)
 
 # Cannonball.py
 
