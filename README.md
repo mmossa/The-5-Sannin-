@@ -8,7 +8,7 @@ The aim of the game is for one pirate ship to aim cannonballs at a target (anoth
 The user wins this game if he/she is able to hit the ship within the limitation placed (on the number of cannonballs the user has avaible to be able to hit the other ship) and being actually able to hit the target. At that point, the game ends.
 
 How does it work?
-In order for users to run this game, they would need to have the pygame library installed. Then, users can run the game from the Main.py file. Additonally, users would need to download all files, including the .jpg image files for the game to work. The image files needs to be in the same directory as the rest of the project files.
+In order for users to run this game, they would need to have the pygame library installed. Then, users can run the game from the Main.py file. Additonally, users would need to download all files, including the .png image files for the game to work. The image files needs to be in the same directory as the rest of the project files.
 
 Project Files 
 
