@@ -35,7 +35,7 @@ This class controls the opposing pirate ship, such as the settings for the ship 
 
 Arfa: worked on update method
 Resha: worked on blitme method
-
+Jay: worked on init method
 
 # Settings.py
 
