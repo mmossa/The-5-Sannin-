@@ -29,6 +29,8 @@ We constructed a class called CannonBall that manages the cannonballs that are s
 
 We've constructed a class in this Python file to manage the ship object. We started by initializing the object and setting it to its default location. We used a picture of a ship to create the item. We assign the screen to a ship property in the init function so that we can quickly access it. In addition, when the player pushes the right arrow key, the ship moves right, and when the player uses the left arrow key, the ship moves left. 
 
+(worked on by Mossa)
+
 # Target.py
 
 This class controls the opposing pirate ship, such as the settings for the ship like the speed, the direction of travel, the image, and the boundaries. We first initialize the ship’s image and position. Then, using the update function we move the position of the ship to make it more challenging for the user to shoot cannonballs.
@@ -40,6 +42,8 @@ Jay: worked on init method
 # Settings.py
 
 This class was created to give restraints and to allow us to give our pirate ship settings that could be adjusted. Giving speed settings, cannonball settings, target settings, and pygame settings. All of these values may be changed. 
+
+(worked on by Jay)
 
 # Bibliography  
 
